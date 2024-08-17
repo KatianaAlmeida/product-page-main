@@ -1,0 +1,45 @@
+/*========================= header ========================= */
+body{
+  margin: 0 10rem;
+  font-family: 'Kumbh Sans';
+}
+p{
+  font-size: 16px;
+}
+/*-------------------------------------*/
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+}
+.logo_container{
+  margin-right: 2rem;
+}
+.nav_items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  color: hsl(219, 9%, 45%);
+}
+.header_right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header_right img:nth-child(1){
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+.header_right img:nth-child(2){
+  height: 3rem;
+}
+/*========================= body ========================= */
+
